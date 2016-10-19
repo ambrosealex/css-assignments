@@ -1,0 +1,41 @@
+*{
+    margin = 0px
+    border = 0px;
+}
+#wrapper{
+    background-color: tan;
+    height: 600px;
+    width: 684px;
+    padding: 40px 10px 20px;
+}
+#catandninja{
+    margin-left: 100px;
+    background-color: white;
+}
+.cat{
+    border: 4px solid black;
+    display: inline-block;
+    margin: 2px 1px;
+}
+.red{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.blue{
+    background-color: skyblue;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.headpic{
+    display: inline-block;
+}
+h1{
+    display: inline-block;
+    text-emphasis: bold;
+}
+.col1{
+    margin-left: 10px;
+}
