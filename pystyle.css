@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 970px;
+    padding: 10px 0px;
+    background-color: rgb(51, 92, 135);
+    font-family: "Arial Verdana", Arial, sans-serif;
+
+    /*border: 1px dashed black;*/
+}
+#header{
+    height: 115px;
+    background-color: rgb(51, 92, 135);
+
+    /*border: 1px dashed black;*/
+}
+#logo{
+    display: inline-block;
+}
+#logo img{
+    height: 95px;
+    width: auto;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#topright{
+    height: 110px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 280px;
+}
+#textsize{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 120px;
+}
+#textsize h5{
+    display: inline-block;
+    color: white;
+    font-weight: normal;
+}
+#textsize .size{
+    color: rgb(171, 149, 35);
+    text-decoration: underline;
+}
+#textsize #blackbar{
+    text-decoration: none;
+    color: black;
+}
+#engine{
+    background-color: rgb(71, 71, 75);
+    border-radius: 10px;
+    height: 60px;
+    width: 285px;
+    margin-left: 20px;
+    display: inline-block;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 5px;
+}
+#search{
+    height: 30px;
+    width: 154px;
+    margin-left: 40px;
+    margin-top: 17px;
+    text-align: center;
+}
+#go{
+    background-color: rgb(51, 92, 135);
+    height: 30px;
+    width: 40px;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid grey;
+    box-shadow: 1px 1px 1px black;
+}
+#toolbar{
+    height:40px;
+    margin-bottom: 5px;
+    background-color: rgb(70, 125, 176);
+    margin: 0px 50px 0px 90px;
+    padding: 5px 0px 0px 50px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+
+    /*border: 1px dashed black;*/
+}
+#toolbar h3{
+    font-size: 16pt;
+    margin-top: 5px;
+}
+#body{
+    height: 307px;
+    margin-top: 5px;
+    background-color: rgb(51, 92, 135);
+    color: white;
+
+    /*border: 1px dashed black;*/
+}
+#nav{
+    display: inline-block;
+    width: 200px;
+    margin-left: 100px;
+    text-decoration: underline;
+    vertical-align: top;
+    margin-top: 25px;
+
+    /*border: 1px dashed black;*/
+}
+#nav ul li{
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+    list-style: inside;
+}
+#nav ul li span{
+    text-align: left;
+    margin-left: -20px;
+}
+#content{
+    width: 580px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 10pt;
+
+    /*border: 1px dashed black;*/
+}
+#content ul li{
+    list-style: none;
+    color: yellow;
+    margin-top: 10px;
+    font-size: 14pt;
+    color: rgb(244, 216, 30);
+    font-style: italic;
+}
+#content #zen{
+    font-style: normal;
+    color: white;
+}
+#guide{
+    height: 225px;
+    background-color: white;
+    padding-left: 100px;
+
+    /*border: 1px dashed black;*/
+}
+#right{
+    width: 410px;
+}
+#left{
+    width: 360px;
+}
+.border-top{
+    /*width: 360px;*/
+    border-top: 5px solid rgb(70, 125, 176);
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    padding: 5px;
+
+    /*border-bottom: 1px dashed black;*/
+}
+#getStarted{
+    display: inline-block;
+    width: 275px;
+    text-align: center;
+    margin-left: 10px;
+    vertical-align: top;
+    font-size: 10pt;
+
+    /*border: 1px dashed black;*/
+}
+#getStarted h4{
+    color: black;
+    font-size: 12pt;
+}
+#getStarted p{
+    width: 275px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+#getStarted ul{
+    width: 275px;
+    margin-left: 35px;
+}
+#getStarted ul li{
+    margin-top: 3px;
+}
+#getStarted ul li span{
+    margin-left: -40px;
+    color: rgb(136, 186, 238);
+}
+#applications{
+    display: inline-block;
+    width: 270px;
+    text-align: center;
+    margin-left: 40px;
+    vertical-align: top;
+    font-size: 10pt;
+
+    /*border: 1px dashed black;*/
+}
+#applications h4{
+    color: black;
+    font-size: 12pt;
+}
+#applications p{
+    width: 270px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#applications ul{
+    width: 270px;
+    margin-left: 40px;
+}
+#applications ul li{
+    margin-top: 3px;
+}
+#applications ul li span{
+    margin-left: -40px;
+    color: rgb(136, 186, 238);
+}
+#footer{
+    height: 90px;
+    background-color: rgb(51, 92, 135);
+    color: rgb(136, 186, 238);
+    padding-left: 220px;
+
+    /*border: 1px dashed black;*/
+}
+#toolbar h3{
+    color: white;
+    display: inline-block;
+    margin-right: 35px;
+    font-weight: normal;
+}
+#footer h3{
+    display: inline-block;
+    margin-right: 45px;
+    font-weight: normal;
+    margin-top: 45px;
+    font-size: 12pt;
+}
+#pyp{
+    color: rgb(136, 186, 238);
+    font-size: 8pt;
+}
+#copyright{
+    margin-left: 220px;
+    margin-top: 15px;
+    font-size: 10pt;
+}
