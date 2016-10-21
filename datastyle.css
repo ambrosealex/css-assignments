@@ -1,0 +1,133 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 970px;
+    padding: 10px;
+    /*border: 1px solid black;*/
+}
+#header{
+    height: 80px;
+}
+#topPic{
+    height: 80px;
+    width: 160px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#rightTitle{
+    display: inline-block;
+    margin-left: 400px;
+    vertical-align: top;
+    margin-top: 38px;
+    font-size: 14pt;
+}
+#toolbar{
+    height: 30px;
+
+    border: 1px solid black;
+}
+#main{
+    height: 700px;
+    padding: 10px 20px 30px 10px;
+    background: radial-gradient(circle, rgb(149, 113, 131), rgb(113, 113, 162),rgb(22, 13, 42));
+
+    border: 1px solid black;
+}
+#dataTree{
+    width: 465px;
+    height: 230px;
+    border: 10px solid silver;
+}
+#whatBox{
+    width: 422px;
+    background: linear-gradient(to right, white, rgb(246, 209, 234));
+}
+.topRow{
+    vertical-align: top;
+    height: 250px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.label{
+    margin-top: 5px;
+}
+h3{
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: linear-gradient(rgb(231, 224, 235), grey,rgb(231, 224, 235));
+}
+h4{
+    margin-top: 10px;
+}
+.whatText{
+    margin: 10px;
+    font-size: 10pt;
+}
+.infoBox{
+    width: 220px;
+    height: 411px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 0px 0px;
+    background: linear-gradient(rgb(145, 147, 175), white);
+    padding-bottom: 20px;
+}
+.infoPic{
+    height: 100px;
+    width: 220px
+}
+.infoText{
+    margin: 10px;
+    font-size: 10pt;
+}
+.readMore{
+    background-color: rgb(51, 92, 135);
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    border: 4px solid black;
+    box-shadow: 1px 5px 5px grey;
+    font-weight: 900;
+    font-size: 8pt;
+    margin-left: 100px;
+}
+#compButton{
+    margin-top: 52px
+}
+#intButton{
+    margin-top: 17px;
+}
+#stoButton{
+    margin-top: 50px;
+}
+#toolbar ul li{
+    display: inline-block;
+    font-size: 10pt;
+    font-weight: bold;
+    padding-top: 9px;
+    height: 30px;
+    width: 126px;
+    text-align: center;
+    border-right: 1px solid black;
+}
+#stack{
+    height: 20px;
+    width: 300px;
+    display: inline-block;
+    margin: 5px 0px 5px 788px;
+}
+#icon{
+    height: 10px;
+    width: auto;
+    display: inline-block;
+}
+h6{
+    height: 10px;
+    display: inline-block;
+    color: steelblue;
+}
